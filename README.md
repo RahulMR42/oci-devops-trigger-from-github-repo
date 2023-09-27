@@ -27,19 +27,6 @@ For triggering a build run based on file changes, the following two options are 
 - Create a devops trigger.
 - Test and validate trigger conditions.
 
-
-* Specific instruction to clone only this example.
-
-    ```
-    $ git init oci-devops-trigger-from-github-repo 
-    $ cd oci-devops-trigger-from-github-repo 
-    $ git remote add origin https://github.com/oracle-devrel/oci-devops-examples
-    $ git config core. sparsecheckout true
-    $ echo "oci-coderepo-examples/oci-devops-trigger-from-github-repo/*">>.git/info/sparse-checkout
-    $ git pull --depth=1 origin main
-
-    ```
-
 ### Procedure
 
 #### OCI Notifications.
@@ -152,8 +139,4 @@ Contributors
 - Author: Rahul M R.
 - Collaborators: NA
 - Last release: September 2023
-Back to examples.
-----
-- 🍿 [Back to OCI Devops Coderepo sample](./../README.md)
-- 🏝️ [Back to OCI Devops sample](./../../README.md)
 
